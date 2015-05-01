@@ -5,7 +5,7 @@
   <servlet-class>com.google.api.server.spi.SystemServiceServlet</servlet-class>
   <init-param>
    <param-name>services</param-name>
-   <param-value>ca.cloudbean.cloudorder.DeviceInfoEndpoint,ca.cloudbean.cloudorder.MessageEndpoint</param-value>
+   <param-value>ca.cloudbean.cloudorder.DeviceInfoEndpoint,ca.cloudbean.cloudorder.MessageEndpoint,ca.cloudbean.cloudorder.entity.RestaurantEndpoint</param-value>
   </init-param>
  </servlet>
  <servlet-mapping>
