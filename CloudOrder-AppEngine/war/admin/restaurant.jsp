@@ -4,7 +4,7 @@
 <head>
 <title>Restaurant Management</title>
 <!-- Bootstrap -->
-<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
 <!-- Styles, taken from Bootstrap Sign-in Form Example.-->
 <style type="text/css">
 body {
@@ -261,8 +261,8 @@ if (window.location.hostname == 'localhost'
       }
   }
   </script>
- <script src="js/jquery-1.9.0.min.js"></script>
- <script src="js/bootstrap.min.js"></script>
+ <script src="/js/jquery-1.9.0.min.js"></script>
+ <script src="/js/bootstrap.min.js"></script>
 
  <script type="text/javascript">
     $("#sendButton").click(insertRestaurant);

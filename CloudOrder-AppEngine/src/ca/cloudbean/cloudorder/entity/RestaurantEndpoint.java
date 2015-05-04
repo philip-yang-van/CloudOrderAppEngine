@@ -99,6 +99,7 @@ public class RestaurantEndpoint {
 	public Restaurant insertRestaurant(Restaurant restaurant) {
 		EntityManager mgr = getEntityManager();
 		try {
+			restaurant.setCreateTimestamp(new java.util.Date().getTime());
 			mgr.persist(restaurant);
 		} finally {
 			mgr.close();

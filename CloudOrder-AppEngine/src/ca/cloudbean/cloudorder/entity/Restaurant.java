@@ -17,9 +17,19 @@ public class Restaurant {
 	  private String restaurantId;
 	  
 	  /*
-	   * Restaurant Name
+	   * Restaurant name
 	   */
 	  private String name;
+	  
+	  /*
+	   * Restaurant address
+	   */
+	  private String address;
+	  
+	  /*
+	   * Restaurant menuVersion
+	   */
+	  private int menuVersion;
 	  
 	  /*
 	   * Timestamp indicating when this device registered with the application.
